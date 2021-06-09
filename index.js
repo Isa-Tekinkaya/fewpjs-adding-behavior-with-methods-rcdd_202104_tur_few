@@ -3,6 +3,9 @@ class Cat {
     this.name = name;
     this.sex = sex;
   }
+  speak(){
+    return `${name} says meow `
+  }
 }
  
 class Dog {
